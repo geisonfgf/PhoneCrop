@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		396417EE35C80742FEA8B9A5 /* Pods_PhoneCropTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1687A4F4C1315774CBAC81 /* Pods_PhoneCropTests.framework */; };
 		556E3CCF1E0726350098CEBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556E3CCE1E0726350098CEBC /* AppDelegate.swift */; };
 		556E3CD11E0726350098CEBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556E3CD01E0726350098CEBC /* ViewController.swift */; };
 		556E3CD41E0726350098CEBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556E3CD21E0726350098CEBC /* Main.storyboard */; };
 		556E3CD61E0726350098CEBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556E3CD51E0726350098CEBC /* Assets.xcassets */; };
 		556E3CD91E0726350098CEBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556E3CD71E0726350098CEBC /* LaunchScreen.storyboard */; };
 		556E3CE41E0726350098CEBC /* PhoneCropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556E3CE31E0726350098CEBC /* PhoneCropTests.swift */; };
+		AB049848C26097752CD692AC /* Pods_PhoneCrop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26ABF54419FD1E25D856F3E4 /* Pods_PhoneCrop.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26ABF54419FD1E25D856F3E4 /* Pods_PhoneCrop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneCrop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		556E3CCB1E0726350098CEBC /* PhoneCrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneCrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		556E3CCE1E0726350098CEBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		556E3CD01E0726350098CEBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +39,11 @@
 		556E3CDF1E0726350098CEBC /* PhoneCropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneCropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		556E3CE31E0726350098CEBC /* PhoneCropTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneCropTests.swift; sourceTree = "<group>"; };
 		556E3CE51E0726350098CEBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E8A18DC97860FB2B660AC3B /* Pods-PhoneCrop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneCrop.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneCrop/Pods-PhoneCrop.release.xcconfig"; sourceTree = "<group>"; };
+		7C1687A4F4C1315774CBAC81 /* Pods_PhoneCropTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneCropTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F867FF79B464431A2C7B0A2 /* Pods-PhoneCropTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneCropTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneCropTests/Pods-PhoneCropTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D371D64170762A4B02BF3273 /* Pods-PhoneCropTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneCropTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneCropTests/Pods-PhoneCropTests.release.xcconfig"; sourceTree = "<group>"; };
+		DE820EA1468C9DE0CBEF4F03 /* Pods-PhoneCrop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneCrop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneCrop/Pods-PhoneCrop.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB049848C26097752CD692AC /* Pods_PhoneCrop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				396417EE35C80742FEA8B9A5 /* Pods_PhoneCropTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10E31E661B74542A57794EA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26ABF54419FD1E25D856F3E4 /* Pods_PhoneCrop.framework */,
+				7C1687A4F4C1315774CBAC81 /* Pods_PhoneCropTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		556E3CC21E0726340098CEBC = {
 			isa = PBXGroup;
 			children = (
 				556E3CCD1E0726350098CEBC /* PhoneCrop */,
 				556E3CE21E0726350098CEBC /* PhoneCropTests */,
 				556E3CCC1E0726350098CEBC /* Products */,
+				6BC7BF578B6C0523A617B693 /* Pods */,
+				10E31E661B74542A57794EA3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +117,17 @@
 			path = PhoneCropTests;
 			sourceTree = "<group>";
 		};
+		6BC7BF578B6C0523A617B693 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE820EA1468C9DE0CBEF4F03 /* Pods-PhoneCrop.debug.xcconfig */,
+				6E8A18DC97860FB2B660AC3B /* Pods-PhoneCrop.release.xcconfig */,
+				9F867FF79B464431A2C7B0A2 /* Pods-PhoneCropTests.debug.xcconfig */,
+				D371D64170762A4B02BF3273 /* Pods-PhoneCropTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 556E3CE81E0726350098CEBC /* Build configuration list for PBXNativeTarget "PhoneCrop" */;
 			buildPhases = (
+				512E13C66F9C9256D6B1A3D2 /* [CP] Check Pods Manifest.lock */,
 				556E3CC71E0726340098CEBC /* Sources */,
 				556E3CC81E0726340098CEBC /* Frameworks */,
 				556E3CC91E0726340098CEBC /* Resources */,
+				91CDA97A893812E9B26F545F /* [CP] Embed Pods Frameworks */,
+				D77E863831D7D63FBD570912 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 556E3CEB1E0726350098CEBC /* Build configuration list for PBXNativeTarget "PhoneCropTests" */;
 			buildPhases = (
+				96FC0149149DFD5BC71B9717 /* [CP] Check Pods Manifest.lock */,
 				556E3CDB1E0726350098CEBC /* Sources */,
 				556E3CDC1E0726350098CEBC /* Frameworks */,
 				556E3CDD1E0726350098CEBC /* Resources */,
+				AA95DF723FE89FF460E76F08 /* [CP] Embed Pods Frameworks */,
+				880C609C62CE5DEAFDFB1E9B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +231,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		512E13C66F9C9256D6B1A3D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		880C609C62CE5DEAFDFB1E9B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneCropTests/Pods-PhoneCropTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91CDA97A893812E9B26F545F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneCrop/Pods-PhoneCrop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96FC0149149DFD5BC71B9717 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA95DF723FE89FF460E76F08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneCropTests/Pods-PhoneCropTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D77E863831D7D63FBD570912 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneCrop/Pods-PhoneCrop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		556E3CC71E0726340098CEBC /* Sources */ = {
@@ -335,8 +466,10 @@
 		};
 		556E3CE91E0726350098CEBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE820EA1468C9DE0CBEF4F03 /* Pods-PhoneCrop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PhoneCrop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.artwebhost.PhoneCrop;
@@ -347,8 +480,10 @@
 		};
 		556E3CEA1E0726350098CEBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E8A18DC97860FB2B660AC3B /* Pods-PhoneCrop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PhoneCrop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.artwebhost.PhoneCrop;
@@ -359,6 +494,7 @@
 		};
 		556E3CEC1E0726350098CEBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F867FF79B464431A2C7B0A2 /* Pods-PhoneCropTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -373,6 +509,7 @@
 		};
 		556E3CED1E0726350098CEBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D371D64170762A4B02BF3273 /* Pods-PhoneCropTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -404,6 +541,7 @@
 				556E3CEA1E0726350098CEBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		556E3CEB1E0726350098CEBC /* Build configuration list for PBXNativeTarget "PhoneCropTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +550,7 @@
 				556E3CED1E0726350098CEBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
