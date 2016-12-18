@@ -14,6 +14,7 @@
 		556E3CD61E0726350098CEBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556E3CD51E0726350098CEBC /* Assets.xcassets */; };
 		556E3CD91E0726350098CEBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556E3CD71E0726350098CEBC /* LaunchScreen.storyboard */; };
 		556E3CE41E0726350098CEBC /* PhoneCropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556E3CE31E0726350098CEBC /* PhoneCropTests.swift */; };
+		556E3CEF1E0738390098CEBC /* testdata in Resources */ = {isa = PBXBuildFile; fileRef = 556E3CEE1E0738390098CEBC /* testdata */; };
 		AB049848C26097752CD692AC /* Pods_PhoneCrop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26ABF54419FD1E25D856F3E4 /* Pods_PhoneCrop.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		556E3CDF1E0726350098CEBC /* PhoneCropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneCropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		556E3CE31E0726350098CEBC /* PhoneCropTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneCropTests.swift; sourceTree = "<group>"; };
 		556E3CE51E0726350098CEBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		556E3CEE1E0738390098CEBC /* testdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = testdata; sourceTree = "<group>"; };
 		6E8A18DC97860FB2B660AC3B /* Pods-PhoneCrop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneCrop.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneCrop/Pods-PhoneCrop.release.xcconfig"; sourceTree = "<group>"; };
 		7C1687A4F4C1315774CBAC81 /* Pods_PhoneCropTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneCropTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F867FF79B464431A2C7B0A2 /* Pods-PhoneCropTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneCropTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneCropTests/Pods-PhoneCropTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		556E3CCD1E0726350098CEBC /* PhoneCrop */ = {
 			isa = PBXGroup;
 			children = (
+				556E3CEE1E0738390098CEBC /* testdata */,
 				556E3CCE1E0726350098CEBC /* AppDelegate.swift */,
 				556E3CD01E0726350098CEBC /* ViewController.swift */,
 				556E3CD21E0726350098CEBC /* Main.storyboard */,
@@ -219,6 +222,7 @@
 			files = (
 				556E3CD91E0726350098CEBC /* LaunchScreen.storyboard in Resources */,
 				556E3CD61E0726350098CEBC /* Assets.xcassets in Resources */,
+				556E3CEF1E0738390098CEBC /* testdata in Resources */,
 				556E3CD41E0726350098CEBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
